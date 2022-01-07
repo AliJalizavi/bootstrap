@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ارز دیجیتال</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.2.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="A.jpg" alt="">
+        <span class="d-none d-lg-block">ارز دیجیتال</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              شما 4 اعلان جدید دارید
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">مشاهده همه</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>قیمت ارز SOL</h4>
+                <p>قیمت ارز رمزنگاری شده ی SOL بالا رفته</p>
+                <p>30 دقیقه پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>حساب کاربری کامل نیست</h4>
+                <p>برای استفاده از امکانات سایت باید حساب کاربری خود را کامل کنید</p>
+                <p>1 ساعت پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>حساب کاربری کامل شد</h4>
+                <p>حساب کاربری با موفقیت کامل شد</p>
+                <p dir="right">20 دقیقه پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>سرور</h4>
+                <p>حتما ماقه های ما را دربارهی اینده ی ارز دیجیتال ببینید</p>
+                <p>3 ساعت پیش</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">نشان دادن همه ی اعلان ها</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              شما 3 پیام جدید دارید
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">مشاهده همه</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>ماریا هادسون</h4>
+                  <p> .سلام علی ارز شیبا تو بفروش داره می یاد پایین</p>
+                  <p>20 دقیقه پیش</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>آنا نلسون</h4>
+                  <p>سلام علی ارز شیبا تو بفروش داره می یاد پایین</p>
+                  <p>20 دقیقه پیش</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>دیوید مولدون</h4>
+                  <p>سلام داداش ارز شیبا داره می یاد پایین  فروختی یا نه</p>
+                  <p>50 دقیقه پیش</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">نمایش همه پیام ها</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="Ali2.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">علی جلیزاوی</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>علی جلیزاوی</h6>
+              <span>طراح سایت<br> تریدر</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+                      <!-- ____________________________________________________ -->
+                      <li>
+                        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                          <i class="bi bi-person"></i>
+                          <span>پروفایل من</span>
+                        </a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+          
+                      <li>
+                        <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                          <i class="bi bi-gear"></i>
+                          <span>تنظیمات حساب</span>
+                        </a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+          
+                      <li>
+                        <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                          <i class="bi bi-question-circle"></i>
+                          <span>کمک</span>
+                        </a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+          
+                      <li>
+                        <a class="dropdown-item d-flex align-items-center" href="#">
+                          <i class="bi bi-box-arrow-right"></i>
+                          <span>خروج از سیستم</span>
+                        </a>
+                      </li>
+          
+                    </ul><!-- End Profile Dropdown Items -->
+                  </li><!-- End Profile Nav -->
+          
+                </ul>
+              </nav><!-- End Icons Navigation -->
+          
+            </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>داشبورد</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>اجزاء</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>هشدارها</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accordion.html">
+              <i class="bi bi-circle"></i><span>آکاردئون</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-badges.html">
+              <i class="bi bi-circle"></i><span>نشان ها</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-buttons.html">
+              <i class="bi bi-circle"></i><span>دکمه ها</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-cards.html">
+              <i class="bi bi-circle"></i><span>کارت ها</span>
+            </a>
+          </li>
+            <a href="components-list-group.html">
+              <i class="bi bi-circle"></i><span>گروه لیست</span>
+            </a>
+          </li>
+          <li>
+          <li>
+            <a href="components-tabs.html">
+              <i class="bi bi-circle"></i><span>زبانه ها</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>قیمت ها</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="components-alerts.html">
+              <i class="bi bi-circle"></i><span>مورده علاقه</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-accordion.html">
+              <i class="bi bi-circle"></i><span>پیشنهادی</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-badges.html">
+              <i class="bi bi-circle"></i><span>قیمت تمام ارز ها</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+              <i class="bi bi-journal-text"></i><span>سبد</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+              <li>
+                <a href="forms-elements.html">
+                  <i class="bi bi-circle"></i><span>تراکنش ها</span>
+                </a>
+              </li>
+              <li>
+                <a href="forms-layouts.html">
+                  <i class="bi bi-circle"></i><span>مشاهده ی سبد</span>
+                </a>
+              </li>
+              <li>
+                <a href="forms-editors.html">
+                  <i class="bi bi-circle"></i><span>خرید های قبل </span>
+                </a>
+              </li>
+              <li>
+                <a href="forms-validation.html">
+                  <i class="bi bi-circle"></i><span></span>
+                </a>
+              </li>
+            </ul>
+          </li><!-- End Forms Nav -->
+
+      <li class="nav-heading">صفحات</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>مشخصات</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>مخاطب</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-register.html">
+          <i class="bi bi-card-list"></i>
+          <span>ثبت نام</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>وارد شدن به سیستم</span>
+        </a>
+      </li><!-- End Login Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-error-404.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Error 404</span>
+        </a>
+      </li><!-- End Error 404 Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-blank.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>جای خالی</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>داشبورد</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">خانه</a></li>
+          <li class="breadcrumb-item active">داشبورد</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section dashboard">
+      <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+          <div class="row">
+
+            <!-- Sales Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card sales-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>فیلتر کنید</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">امروز</a></li>
+                    <li><a class="dropdown-item" href="#">این ماه</a></li>
+                    <li><a class="dropdown-item" href="#">امسال</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">پرطرفدار <span>| امروز</span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-cart"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>30</h6>
+
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End Sales Card -->
+
+            <!-- Revenue Card -->
+            <div class="col-xxl-4 col-md-6">
+              <div class="card info-card revenue-card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>فیلتر کنید</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">امروز</a></li>
+                    <li><a class="dropdown-item" href="#">این ماه</a></li>
+                    <li><a class="dropdown-item" href="#">امسال</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title"> هجم بین کوین از بازار<span>| امروز</span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>49,720,17</h6>
+                      <span class="text-success small pt-1 fw-bold">11.91%</span> <span class="text-muted small pt-2 ps-1"></span>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div><!-- End Revenue Card -->
+
+            <!-- Customers Card -->
+            <div class="col-xxl-4 col-xl-12">
+
+              <div class="card info-card customers-card">
+
+
+
+                <div class="card-body">
+                  <h5 class="card-title">تعداد ارز های موجود <span></span></h5>
+
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <i class="bi bi-people"></i>
+                    </div>
+                    <div class="ps-3">
+                      <h6>15403</h6>
+                      <span class="text-danger small pt-1 fw-bold">100%</span> <span class="text-muted small pt-2 ps-1"></span>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div><!-- End Customers Card -->
+
+            <!-- Reports -->
+            <div class="col-12">
+              <div class="card">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>فیلتر</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">امروز</a></li>
+                    <li><a class="dropdown-item" href="#">این ماه</a></li>
+                    <li><a class="dropdown-item" href="#">امسال</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">گزارش ها <span>/امروز</span></h5>
+
+                  <!-- Line Chart -->
+                  <div id="reportsChart"></div>
+
+                  <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                      new ApexCharts(document.querySelector("#reportsChart"), {
+                        series: [{
+                          name: 'Bitcoin',
+                          data: [40245, 50555, 49414, 47845, 52171 ,51742 , 49767],
+                        }, {
+                          name: 'Ethereum',
+                          data: [2279 , 4364 , 247 , 3299  , 4381 , 4475 , 4576]
+                        }, {
+                        }],
+                        chart: {
+                          height: 350,
+                          type: 'area',
+                          toolbar: {
+                            show: false
+                          },
+                        },
+                        markers: {
+                          size: 4
+                        },
+                        colors: ['#2eca6a', '#ff771d'],
+                        fill: {
+                          type: "gradient",
+                          gradient: {
+                            shadeIntensity: 1,
+                            opacityFrom: 0.3,
+                            opacityTo: 0.4,
+                            stops: [4100, 41000, 53000]
+                          }
+                        },
+                        dataLabels: {
+                          enabled: false
+                        },
+                        stroke: {
+                          curve: 'smooth',
+                          width: 2
+                        },
+                        xaxis: {
+                          type: 'datetime',
+                          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                        },
+                        tooltip: {
+                          x: {
+                            format: 'dd/MM/yy HH:mm'
+                          },
+                        }
+                      }).render();
+                    });
+                  </script>
+                  <!-- End Line Chart -->
+
+                </div>
+
+              </div>
+            </div><!-- End Reports -->
+
+            <!-- Recent Sales -->
+            <div class="col-12">
+              <div class="card recent-sales">
+
+                <div class="filter">
+                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>فیلتر</h6>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">امروز</a></li>
+                    <li><a class="dropdown-item" href="#">این ماه</a></li>
+                    <li><a class="dropdown-item" href="#">امسال</a></li>
+                  </ul>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">فروش بیشترین اخیر <span>| امروز</span></h5>
+
+                  <table class="table table-borderless datatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">اسم</th>
+                        <th scope="col">اسم مختسر</th>
+                        <th scope="col">قیمت</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="#">#1</a></th>
+                        <td>Bitcoin</td>
+                        <td><a href="#" class="text-primary">BTC</a></td>
+                        <td>$49859</td>>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#2</a></th>
+                        <td>Ethereum</td>
+                        <td><a href="#" class="text-primary">ETH</a></td>
+                        <td>$4391</td>>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#3</a></th>
+                        <td>Binance Coin</td>
+                        <td><a href="#" class="text-primary">BNB</a></td>
+                        <td>$606</td>>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#4</a></th>
+                        <td>Tether</td>
+                        <td><a href="#" class="text-primar">USDT</a></td>
+                        <td>$1</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#5</a></th>
+                        <td>Solana</td>
+                        <td><a href="#" class="text-primary">SOL</a></td>
+                        <td>$191</td>>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#6</a></th>
+                        <td>Cardano</td>
+                        <td><a href="#" class="text-primary">ADA</a></td>
+                        <td>$1.38</td>>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="#">#7</a></th>
+                        <td>USD Coin</td>
+                        <td><a href="#" class="text-primary">USDC</a></td>
+                        <td>$1</td>>
+                      </tr>
+                      <tr>
+                      <th scope="row"><a href="#">#8</a></th>
+                      <td>Xrp</td>
+                      <td><a href="#" class="text-primary">XRP</a></td>
+                      <td>$0.85</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"><a href="#">#9</a></th>
+                    <td>Terra</td>
+                    <td><a href="#" class="text-primary">LUNA</a></td>
+                    <td>$75.76</t>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#">#10</a></th>
+                    <td>Polkadot</td>
+                    <td><a href="#" class="text-primary">DOT</a></td>
+                    <td>$28.94</t>
+                  </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+            </div><!-- End Recent Sales -->
+          </div>
+        </div><!-- End Left side columns -->
+
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+          <!-- Recent Activity -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>فیلتر</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">امروز</a></li>
+                <li><a class="dropdown-item" href="#">این ماه</a></li>
+                <li><a class="dropdown-item" href="#">امسال</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">اخبار<span></span></h5>
+
+              <div class="activity">
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">32 دقیقه پیش</div>
+                  <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
+                  <div class="activity-content">
+                    <strong>وضعیت بازار:</strong>توقف بیت کوین هم زمان با جهش اتریوم و آلت کوین ها 
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex" >
+                  <div class="activite-label"> 50 دقیقه پیش</div>
+                  <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
+                  <div class="activity-content">
+                    <strong>تحلیل جدید قیمت بیت کوین:</strong>حمایت های جدیدی که می تواند از سقوط عمیق قیمت جلو گیری کرد
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">دو ساعت پیش</div>
+                  <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
+                  <div class="activity-content">
+                    <strong>تحلیل قیمت اتریوم:</strong>بازار در استانه تکمیل یک الگوی صعودی
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">یک هفته پیش</div>
+                  <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
+                  <div class="activity-content">
+                    دو توکن متاورسی که بزرگترین نهنگ های اتریوم اخیرا در انها سرمایه گذاری کردهاند.
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">یک روز پیش </div>
+                  <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
+                  <div class="activity-content">
+                    جهش و رکوردشکنی قیمت لونا هم زمان با تثبیت بازار;علت چه یود؟
+                  </div>
+                </div><!-- End activity item-->
+
+                <div class="activity-item d-flex">
+                  <div class="activite-label">یک هفته پیش </div>
+                  <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
+                  <div class="activity-content">
+                    <strong>تحلیلگر مطرح:</strong>دوج کوین و اتریوم آماده جهش هستند
+                  </div>
+                </div><!-- End activity item-->
+
+              </div>
+
+            </div>
+          </div><!-- End Recent Activity -->
+
+          <!-- Budget Report -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>فیلتر</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">امروز</a></li>
+                <li><a class="dropdown-item" href="#">این ماه</a></li>
+                <li><a class="dropdown-item" href="#">امسال </a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">سهم بازار <span>| این ماه</span></h5>
+
+              <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
+
+              <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                  var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
+                    legend: {
+                      data: ['Allocated Budget', 'Actual Spending']
+                    },
+                    radar: {
+                      // shape: 'circle',
+                      indicator: [{
+                          name: 'Bitcoin',
+                          max: 6500
+                        },
+                        {
+                          name: 'Ethereum',
+                          max: 16000
+                        },
+                        {
+                          name: ' Binance Coin',
+                          max: 30000
+                        },
+                        {
+                          name: 'Ethereum ',
+                          max: 38000
+                        },
+                        {
+                          name: 'Tether',
+                          max: 52000
+                        },
+                        {
+                          name: 'Solana',
+                          max: 25000
+                        }
+                      ]
+                    },
+                    series: [{
+                      name: 'Budget vs spending',
+                      type: 'radar',
+                      data: [{
+                          value: [4200, 3000, 20000, 35000, 50000, 18000],
+                          name: 'Tether '
+                        },
+                        {
+                          value: [5000, 14000, 28000, 26000, 42000, 21000],
+                          name: 'Bitcoin '
+                        }
+                      ]
+                    }]
+                  });
+                });
+              </script>
+
+            </div>
+          </div><!-- End Budget Report -->
+          <!-- News & Updates Traffic -->
+          <div class="card">
+            <div class="filter">
+              <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                  <h6>فیلتر</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">امروز</a></li>
+                <li><a class="dropdown-item" href="#"> این ماه</a></li>
+                <li><a class="dropdown-item" href="#"> امسال</a></li>
+              </ul>
+            </div>
+
+            <div class="card-body pb-0">
+              <h5 class="card-title">مقاله به روز <span>| امروز</span></h5>
+
+              <div class="news">
+                <div class="post-item clearfix">
+                  <img src="bitcoin.png" alt="">
+                  <h4><a href="https://arzdigital.com/coins/bitcoin/"> تحلیل بیت کون با تمام نکات ان</a></h4>
+                  <p>بیت کوین با نماد اختصاری BTC یک ارز دیجیتال یا شکلی از دارایی دیجیتال است که ...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="ethereum.png" alt="">
+                  <h4><a href="https://arzdigital.com/coins/ethereum/">اخبار اتریوم با نمودار تکنیکال</a></h4>
+                  <p>اتریوم با نماد اختصاری ETH یک ارز دیجیتال یا شکلی از دارایی دیجیتال است که...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="solana.png" alt="">
+                  <h4><a href="https://arzdigital.com/coins/solana/">اخبار سولانا که تاکه در یک سال گذشته 6000% و بیشتر سود داده</a></h4>
+                  <p>سولانا با نماد اختصاری SOL یک ارز دیجیتال یا شکلی از دارایی دیجیتال است که...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="cardano.png" alt="">
+                  <h4><a href="https://arzdigital.com/coins/cardano/">کاردانو محبوب ترین ارز دیجیتال</a></h4>
+                  <p>کاردانو با نماد اختصاری ADA یک ارز دیجیتال یا شکلی از دارایی دیجیتال است که...</p>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="tether.png" alt="">
+                  <h4><a href="https://arzdigital.com/coins/tether/">تتر ارزی که جزئ ارز های ثابت هست</a></h4>
+                  <p>تتر با نماد اختصاری USDT یک ارز دیجیتال یا شکلی از دارایی دیجیتال است که...</p>
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+            </div>
+          </div><!-- End News & Updates -->
+
+        </div><!-- End Right side columns -->
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
